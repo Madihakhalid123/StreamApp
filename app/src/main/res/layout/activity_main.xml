@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292626"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/back"
+            android:drawableStart="@drawable/baseline_search_24"
+            android:hint="find movies,shows and more"
+            android:paddingLeft="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="All"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="New"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:text="Funny"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Trending"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:text="Darama"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_1" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+
+            android:src="@drawable/img_3" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_4" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_5" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_6" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img_7" />
+
+
+    </LinearLayout>
+</HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue Watches"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img_8" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img_9" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img_10" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/img_11" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img_14" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/img_13" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+ <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Watches"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img_15" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img_16" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/img_17" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+
+                    android:src="@drawable/img_18" />
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDAFAF"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_bar_app"
+        />
+</RelativeLayout>
